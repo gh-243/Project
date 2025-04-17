@@ -1,4 +1,13 @@
-.navbar-brand img {
+.logo {
+  height: 50px;
+}
+
+.logo > a{
+  display: block;
+  height: 100%;
+}
+
+.logo > a > img {
   width: auto;
   max-height: 100%;
   vertical-align: middle;
