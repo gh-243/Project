@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,24 +10,29 @@
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
+
 </head>
 <body>
-	
-  <!-- Header -->
-	<header>
-		<!-- Header desktop -->
-		<div class="wrap-menu-header gradient1 trans-0-4">
-			<div class="container h-full">
-				<div class="wrap_header trans-0-3">
-					<!-- Logo -->
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Logo -->
 					<div class="logo">
 						<a href="index.html">
 							<img src="images/logo.png" alt="IMG-LOGO">
 						</a>
 					</div>
-
-					<!-- Menu -->
-					<div class="wrap_menu p-l-45 p-l-0-xl">
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <div class="wrap_menu p-l-45 p-l-0-xl">
 						<nav class="menu">
 							<ul class="main_menu">
 								<li>
@@ -48,54 +54,53 @@
 								<li>
 									<a href="contact.html">Contact</a>
 								</li>
-                                 <!-- Dropdown -->
-                                <li class="nav-item dropdown">
-                                   <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
-                                   data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                          Education
-                                    </a>
-                                <div class="dropdown-menu">
-                                   <a class="dropdown-item" href="#">Link 1</a>
-                                   <a class="dropdown-item" href="#">Link 2</a>
-                                   <a class="dropdown-item" href="#">Link 3</a>
-                                   <a class="dropdown-item" href="#">Link 4 </a>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Education
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                                <a class="dropdown-item" href="#">Link 4</a>
                             </div>
-							</ul>
-						</nav>
-					</div>
-
-					<!-- Social -->
-					<div class="social flex-w flex-l-m p-r-20">
-						<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
-						<a href="#"><i class="fa fa-facebook m-l-21" aria-hidden="true"></i></a>
-						<a href="#"><i class="fa fa-twitter m-l-21" aria-hidden="true"></i></a>
-
-						<button class="btn-show-sidebar m-l-33 trans-0-4"></button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-
-        <div class="row">
-        <p class="col-1">Col 1</p>
-        <p class="col-1">Col 2</p>
-        <p class="col-1">Col 3</p>
-        <p class="col-1">Col 4</p>
-        <p class="col-1">Col 5</p>
-        <p class="col-1">Col 6</p>
-        <p class="col-1">Col 7</p>
-        <p class="col-1">Col 8</p>
-        <p class="col-1">Col 9</p>
-        <p class="col-1">Col 10</p>
-        <p class="col-1">Col 11</p>
-        <p class="col-1">Col 12</p>
-        </div>
-    <div class="col-sm-4  text-center">
-        <h2>h2 Bootstrap heading (24px)</h2>
-        <h3>h2 Bootstrap heading (18px)</h3>
-    </div>
+                        </li>
+                    </ul>
+                    </nav.
+                </div>
+            </nav>
+        <div class="container">
+          <div class="row">
+            <form action="">
+                <div class="form-group">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" class="form-control" id="firstname"
+                           placeholder="First name" name="firstname">
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" class="form-control" id="lastname"
+                           placeholder="Last name" name="lastname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email"
+                           placeholder="Enter email" name="email">
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input"
+                               type="checkbox" name="subscribe"> Subscribe
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </row>
 </div>
+        </div>
  <footer class="footer page-footer font-small ">
      <div class="container">
         <div class="row">
