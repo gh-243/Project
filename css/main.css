@@ -81,7 +81,7 @@
   margin-right: 10px;
 }
 
-.main_menu > li > a {
+.nav-item {
   font-family: Montserrat;
   font-weight: 400;
   font-size: 14px;
