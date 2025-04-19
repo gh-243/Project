@@ -1,7 +1,7 @@
 
 /*------logo-------*/
 .logo {
-  height: 25px;
+  height: 35px;
 }
 
 .logo > a{
@@ -20,22 +20,13 @@
 }
 
 .menu {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
+  
   align-items: center;
   justify-content: center;
   height: 100%;
 }
 
 .navbar-nav {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
