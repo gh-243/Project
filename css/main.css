@@ -16,7 +16,7 @@
 }
 /*------menu-------*/
 header {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 .row {
   height: 100%;
