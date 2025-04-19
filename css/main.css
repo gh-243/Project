@@ -1,21 +1,12 @@
 
 /*------logo-------*/
-.logo {
-  height: 35px;
-}
 
-.logo > a{
-  display: block;
-  height: 100%;
-}
-
-.logo > a > img {
-  width: auto;
-  max-height: 100%;
-  vertical-align: middle;
-}
 /*------menu-------*/
+.navbar {
+  horizontal-align: middle;
+}
 
+  
 .row {
   height: 100%;
 }
@@ -44,13 +35,14 @@
   text-transform: uppercase;
   color: black;
   padding: 15px;
+  hover
 }
 
 .navbar-nav > li > a {
   color: #222222;
 }
 
-.navbar-nav > li:hover > a {
+.navbar-nav:hover{
   color: #ec1d25;
   text-decoration: none;
 }
