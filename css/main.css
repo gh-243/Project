@@ -1,5 +1,7 @@
 /*-----header-------*/
-header 
+body {
+  background-image: url("bg1.webp");
+}
 
 
 .welcome {
