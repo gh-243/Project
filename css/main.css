@@ -25,17 +25,17 @@ body {
   height: 100%;
 }
 
-.navbar.navbar-nav {
+.navbar-nav {
   align-items: center;
   justify-content: center;
 }
 
-.navbar.navbar-nav li {
+.navbar-nav li {
   display: block;
   position: relative;
 }
 
-.navbar.navbar-nav > li {
+.navbar-nav > li {
   padding-top: 10px;  
   padding-bottom: 10px; 
   margin-left: 10px;
@@ -54,8 +54,17 @@ body {
   color: white;
   padding: 15px;
 }
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
 
-.navbar.navbar-nav > li > a {
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav > li > a {
   color: #222222;
 }
 
