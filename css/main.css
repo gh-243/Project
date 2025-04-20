@@ -25,7 +25,7 @@ header {
   
 
 /*------menu-------*/
-.navbar {
+.navbar.navbar {
   float: middle;
 }
 
@@ -34,17 +34,17 @@ header {
   height: 100%;
 }
 
-.navbar-nav {
+.navbar.navbar-nav {
   align-items: center;
   justify-content: center;
 }
 
-.navbar-nav li {
+.navbar.navbar-nav li {
   display: block;
   position: relative;
 }
 
-.navbar-nav > li {
+.navbar.navbar-nav > li {
   padding-top: 10px;  
   padding-bottom: 10px; 
   margin-left: 10px;
@@ -60,11 +60,11 @@ header {
   padding: 15px;
 }
 
-.navbar-nav > li > a {
+.navbar.navbar-nav > li > a {
   color: #222222;
 }
 
-.navbar-nav:hover{
+.navbar.navbar-nav > li> a:hover{
   color: #ec1d25;
   text-decoration: none;
 }
