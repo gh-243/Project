@@ -42,6 +42,10 @@ body {
   margin-right: 10px;
 }
 
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
 .nav-link {
   font-family: Montserrat;
   font-weight: 400;
