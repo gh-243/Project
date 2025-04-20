@@ -54,15 +54,6 @@ body {
   color: white;
   padding: 15px;
 }
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  text-align: center;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
 
 .navbar-nav > li > a {
   color: #222222;
