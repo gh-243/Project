@@ -1,6 +1,6 @@
 /*-----header-------*/
 body {
-  background-image: url("bg1.webp");
+  background-colot: black;
 }
 
 
@@ -9,7 +9,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
-  color: black;
+  color: white;
   padding: 15px;
   float: center;
 }
@@ -47,7 +47,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
-  color: black;
+  color: white;
   padding: 15px;
 }
 
