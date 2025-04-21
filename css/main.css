@@ -64,11 +64,11 @@ body {
   text-decoration: none;
 }
 /*--------button-------*/
-.menu: link {
+.menu:link {
   color: white;
   text-decoration: none;
 }
-.menu: visited {
+.menu:visited {
   color: white;
   text-decoration: none;
 }
