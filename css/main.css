@@ -84,7 +84,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.button1:hover {
+.button:hover {
   background-color: #04AA6D;
   color: white;
 }
