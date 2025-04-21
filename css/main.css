@@ -64,7 +64,7 @@ body {
   text-decoration: none;
 }
 /*--------button-------*/
-a #menu: link {
+a: link {
   color: white;
   text-decoration: none;
 }
