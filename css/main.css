@@ -64,6 +64,11 @@ body {
   text-decoration: none;
 }
 /*--------button-------*/
+#menu: link {
+  color: white;
+  text-decoration: none;
+}
+  
 .button {
   position: absolute;
   left: 50%;
