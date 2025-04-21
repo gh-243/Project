@@ -74,18 +74,16 @@ body {
   font-size: 16px;
   margin: 4px 2px;
   transition-duration: 0.4s;
-  cursor: pointer;
+  cursor: pointer; 
+}
+.button1 {
   background-color: white; 
   color: black; 
-  border: 2px solid #04AA6D;
-  background-color: #04AA6D;
-  color: white;
-  border-radius: 12px;
-  justify-content: center;
-  align-items: center;
+  border: 2px solid #008CBA;
 }
-.button:hover {
-  background-color: #04AA6D;
+
+.button1:hover {
+  background-color: #008CBA;
   color: white;
 }
 
