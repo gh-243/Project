@@ -3,7 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sabores del Caribe y España</title>
+  <title>Menu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+</head>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -13,7 +26,7 @@
       color: #333;
     }
     header {
-      background-color: #b22222;
+      background-color: #131111;
       color: white;
       text-align: center;
       padding: 2rem;
@@ -100,8 +113,8 @@
                     style="background-color:transparent">
 
             <!-- Brand -->
-            <a class="navbar-brand" href="#">
-                <img src="images/logo.png" width="30" height="30" alt="">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" width="30" height="30" alt="logo">
             </a>
             <!-- Responsive Button for the smaller menu -->
             <button class="navbar-toggler" type="button"
@@ -152,36 +165,33 @@
   <div class="menu-item">
     <span>Empanadillas de Chorizo y Queso de Hoja</span>
     Spanish chorizo and Dominican hoja cheese in crispy pastry.
-    <img src="https://source.unsplash.com/800x500/?empanada" alt="Empanadillas">
   </div>
   <div class="menu-item">
     <span>Tostones con Jamón Ibérico</span>
     Plantains topped with Jamón Ibérico and mojo sauce.
-    <img src="https://source.unsplash.com/800x500/?plantains" alt="Tostones">
   </div>
 
   <h2>🍚 Platos Principales / Main Dishes</h2>
   <div class="menu-item">
     <span>Paella Caribeña</span>
     Seafood paella with coconut rice.
-    <img src="https://source.unsplash.com/800x500/?paella" alt="Paella Caribeña">
+    
   </div>
   <div class="menu-item">
     <span>Pollo Guisado con Pimientos y Paprika</span>
     Stewed chicken with smoked paprika.
-    <img src="https://source.unsplash.com/800x500/?chicken-stew" alt="Pollo Guisado">
   </div>
 
   <h2>🍮 Postres / Desserts</h2>
   <div class="menu-item">
     <span>Flan de Coco y Naranja</span>
     Creamy coconut flan with orange zest.
-    <img src="https://source.unsplash.com/800x500/?flan" alt="Flan">
+
   </div>
   <div class="menu-item">
     <span>Tres Leches con Azafrán</span>
     Classic three-milk cake with saffron.
-    <img src="https://source.unsplash.com/800x500/?tres-leches" alt="Tres Leches Cake">
+
   </div>
 </div>
 
@@ -189,8 +199,8 @@
   <h2>📞 Contact Us</h2>
   <div class="contact-info">
     <p><strong>Phone:</strong> +1 (809) 555-1234</p>
-    <p><strong>Email:</strong> info@saboresfusion.com</p>
-    <p><strong>Location:</strong> Santo Domingo, Dominican Republic</p>
+    <p><strong>Email:</strong> info@blancinegre.com</p>
+    <p><strong>Location:</strong> Montclair, New Jersey</p>
   </div>
 
   <form>
@@ -202,7 +212,7 @@
 </div>
 
 <footer>
-  © 2025 Sabores del Caribe y España. All rights reserved.
+  © 2025 Blanc I Negre . All rights reserved.
 </footer>
 
 </body>
